@@ -11,11 +11,11 @@
 
 ## Requirements
 * Computer
+* [ABD Installation](https://developer.android.com/studio/releases/platform-tools)
 * Android phone
   - version: Android 7.x+ to 11.x
   - architecture: 64 bit 
   - processor: octa-core (can also be run in quad-core for some brands)
-* [ABD Installation](https://developer.android.com/studio/releases/platform-tools)
 * USB data cable
 ```
 Note:
