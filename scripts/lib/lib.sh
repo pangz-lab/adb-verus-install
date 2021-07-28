@@ -79,25 +79,25 @@ function prepare_build_directory {
 
 function show_initial_steps() {
     label_header " Open Termux "
-    label_body " - From the phone, type the following commands"
+    label_body " - From the phone, type the following commands. (You can disconnect the device from PC)"
     label_body ""
     label_body "1. $ pkg install termux-api"
     label_body "2. $ termux-setup-storage"
     label_body "   - a prompt will appear; allow termux to access your storage"
     label_body "3. $ cp ./storage/downloads/term_bash_setup.sh .bash_profile"
     label_body "4. $ source .bash_profile"
-    label_body "5. Relaunch termux. Proceed with the following methods"
-    label_body ""
+    label_body "5. Relaunch termux. Proceed either the following methods"
+	label_body ""
     label_body " [ Method 1 ]"
+    label_body "   1. $ util"
+    label_body "   2. Choose #2"
+    label_body "   3. Exit and relaunch termux"
+    label_body ""
+    label_body " [ Method 2 ] Manual Setting"
     label_body "   1. $ cp ./storage/downloads/term_bash_setup.sh .bash_profile"
     label_body "   2. $ cp ./storage/downloads/term_miner.sh ccminer/miner.sh"
     label_body "   3. $ chmod +x ccminer/miner.sh"
     label_body "   4. Exit and relaunch termux"
-    label_body ""
-    label_body " [ Method 2 ]"
-    label_body "   1. $ util"
-    label_body "   2. Choose #2"
-    label_body "   3. Exit and relaunch termux"
 }
 
 function disable_apps {
