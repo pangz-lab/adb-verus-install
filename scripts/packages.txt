@@ -1,0 +1,2 @@
+package:com.nttdocomo.android.photocollection
+package:com.felicanetworks.mfw.a.main

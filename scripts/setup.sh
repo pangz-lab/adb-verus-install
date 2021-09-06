@@ -7,6 +7,7 @@ THREAD=${4}
 NUMBER_REGEX='^[0-9]+$'
 source $APP_BASE_PATH/config/default.sh
 source $APP_BASE_PATH/lib/lib.sh
+source $APP_BASE_PATH/lib/bloatware_cleanup.sh
 
 [ -z "$PHONE_SERIAL" ] && echo "Serial number not found" && help
 [ -z "$NAME" ] && echo "Name not found" && help
@@ -18,6 +19,8 @@ source $APP_BASE_PATH/lib/lib.sh
 # disable_apps
 echo " [ START ] $(date '+%d/%m/%Y %H:%M:%S')"
 echo " [ Setup Start ]"
+
+# cleanup_bloatware ./config/bloatware_keywords.log
 check_device_connection
 create_miner_script $NAME $MODE $THREAD
 install_apk_collection

@@ -11,7 +11,7 @@ PHONE_SHARING_PATH="storage/emulated/0/Download"
 PHONE_SHARING_SUGO_PATH="storage/emulated/0/Download/sugo"
 
 APK_GROUP=( "default" )
-APK_COLLECTION=( "cpuz.apk" "macrodroid.apk" "xplore.apk" "termux-v0.98.apk" "termux_api.v0.34.apk" "hackkeyboard_vv1.40.7.apk" )
+APK_COLLECTION=( "cpuz.apk" "macrodroid.apk" "xplore.apk" "termux-v0.98.apk" "termux_api.v0.34.apk" "hackkeyboard_vv1.40.7.apk" "FAST_com.netflix.Speedtest.apk" )
 
 TMP_TERMUX_BASH_PROF="tmp.bash_profile.sh"
 FMT_TAB="    "
