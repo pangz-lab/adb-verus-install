@@ -1,14 +1,14 @@
 # adb-verus-install
 ## Table of contents<a name='toc'></a>
-- [x] [What's this for?](#what-for)
-- [x] [Who can use this?](#what-use)
-- [x] [Requirements](#requirements)
-- [x] [Setup](#setup)
-    - [x] [Phone Setup](#setup-phone)
-    - [x] [PC Setup](#setup-pc)
-    - [x] [Script Setup](#setup-script)
-- [x] [Miner Installation](#instatllation)
-- [x] [Diclaimer](#disclaimer)
+- [x] ❓[What's this for?](#what-for)
+- [x] 🙈[Who can use this?](#what-use)
+- [x] 📋[Requirements](#requirements)
+- [x] ⚙️[Settin](#setup)
+    - [x] 📱[Phone](#setup-phone)
+    - [x] 💻[PC](#setup-pc)
+    - [x] 💲[Script](#setup-script)
+- [x] 👨‍💻[Miner Installation](#miner-installation)
+- [x] ⚠️[Diclaimer](#disclaimer)
 # ❓What's this for?<a name='what-for'></a>[🔗](#toc)
 * Running a verus miner in mobile phone ( for [Luckpool.net](https://luckpool.net/verus/connect.html) for now )
 * Seemless and smoooth miner installation
@@ -35,10 +35,10 @@
 > This is mostly tested in `android one`, `hauwei`, `samsung`, `sharp` and `fujitsu` phones
 
 
-# ⚙️Setup<a name='setup'></a>[🔗](#toc)
+# ⚙️Setting<a name='setup'></a>[🔗](#toc)
 `PC` and `SCRIPT` setup should be done once. It might take a while at first but once set, your next setup should take less than 15 minutes.
 
-## [ 📱 PHONE ]<a name='setup-phone'></a>[🔗](#toc)
+## [ 📱 Phone ]<a name='setup-phone'></a>[🔗](#toc)
  - [Enable developer mode in the target device](https://duckduckgo.com/?q=how+to+enable+developer+mode+android&t=newext&atb=v286-1&ia=web)
  - Enable `USB Debugging`
     - ![usb debugging](https://github.com/pangz-lab/adb-verus-install/blob/main/scripts/readme_assets/usbdebug.png?raw=true)
@@ -64,7 +64,7 @@
     - When phone is setup properly, it should appear from the `List of devices attached`
     - The left side is the device ID. 📌Take note. <a name="Adb-device-id"></a>
     - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/main/scripts/readme_assets/adb1.png?raw=true)
-## [ 💲 SCRIPT ]<a name='setup-script'></a>[🔗](#toc)
+## [ 💲 Script ]<a name='setup-script'></a>[🔗](#toc)
  - [Clone this repository](https://github.com/pangz-lab/adb-verus-install/tree/main)
     ```bash
     git clone git@github.com:pangz-lab/adb-verus-install.git
