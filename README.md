@@ -31,7 +31,7 @@
 ## [ 📱 PHONE ]
  - [Enable developer mode in the target device](https://duckduckgo.com/?q=how+to+enable+developer+mode+android&t=newext&atb=v286-1&ia=web)
  - Enable `USB Debugging`
-    - ![usb debugging](https://github.com/pangz-lab/adb-verus-install/blob/feature/updated-readme/scripts/readme_assets/usbdebug.png?raw=true)
+    - ![usb debugging](https://github.com/pangz-lab/adb-verus-install/blob/mastere/scripts/readme_assets/usbdebug.png?raw=true)
     - This is the minimun setting but other phone brand might require additional setting to allow the communication with ADB.
  - Connect the phone to your PC with the data cable
  - In the first run, a message will popup asking to `Allow USB Debugging?`. Click `OK`.
@@ -46,14 +46,14 @@
     adb --help
     ```
     - It should give version and other details
-    - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/feature/updated-readme/scripts/readme_assets/adb2.png?raw=true)
+    - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/mastere/scripts/readme_assets/adb2.png?raw=true)
  - Check the connected device.<a name="Adb-connected-device"></a>
     ```bash
     adb devices
     ```
     - When phone is setup properly, it should appear from the `List of devices attached`
     - The left side is the device ID. 📌Take note. <a name="Adb-device-id"></a>
-    - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/feature/updated-readme/scripts/readme_assets/adb1.png?raw=true)
+    - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/mastere/scripts/readme_assets/adb1.png?raw=true)
 ## [ 💲 SCRIPT ]
  - [Clone this repository](https://github.com/pangz-lab/adb-verus-install/tree/main)
     ```bash
@@ -102,11 +102,11 @@
     ```
     - Wait for the the installation to complete
     - The device can be disconnected after the installation.
-    - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/feature/updated-readme/scripts/readme_assets/setup1.png?raw=true)
+    - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/mastere/scripts/readme_assets/setup1.png?raw=true)
  - From your phone, open the `termux` app
  - Follow the instruction showing in the terminal starting from `[ Open Termux ]`
     - The command `pkg install termux-api` might not be completed for some installation. Just proceed to the next step.
-    - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/feature/updated-readme/scripts/readme_assets/setup2.png?raw=true)
+    - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/mastere/scripts/readme_assets/setup2.png?raw=true)
     - Termux will automatically close at some point, you need to reopen it.
  - Setup is complete
  - Open `termux` - the miner will run automatically
