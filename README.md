@@ -13,22 +13,22 @@
 
 # 📋Requirements
 * 💻Computer
-* [ADB Installation](https://developer.android.com/studio/releases/platform-tools)
 * 📱Android phone
   - `version`: Android 7.x+ to 10.x ( 11.x might have some issues for some brands )
   - `architecture`: 64 bit 
   - `processor`: octa-core (can also be run in quad-core for some brands)
   - [Git and git-bash](https://git-scm.com/downloads) (other terminals can be used as well)
 * USB data cable
+* [ADB Installation](https://developer.android.com/studio/releases/platform-tools)
 * 🔑Verus public address
 > 📌NOTE:
-> This is tested mostly in `android one`, `hauwei`, `samsung`, `sharp` and `fujitsu` phones
+> This is mostly tested in `android one`, `hauwei`, `samsung`, `sharp` and `fujitsu` phones
 
 
 # ⚙️Setup
 `PC` and `SCRIPT` setup should be done once. It might take a while at first but once set, your next setup should take less than 15 minutes.
 
-## 📱 PHONE
+## [ 📱 PHONE ]
  - [Enable developer mode in the target device](https://duckduckgo.com/?q=how+to+enable+developer+mode+android&t=newext&atb=v286-1&ia=web)
  - Enable `USB Debugging`
     - ![usb debugging](https://github.com/pangz-lab/adb-verus-install/blob/feature/updated-readme/scripts/readme_assets/usbdebug.png?raw=true)
@@ -39,7 +39,7 @@
     - ![allow debugging message](https://www.howtogeek.com/wp-content/uploads/2016/04/Screenshot_20160419-094818.png)
 > 📌NOTE:
 > If you plan to use your phone solely for mining, uninstall and disable unnecessary apps and services to maximize your resources.
-## 💻 PC 
+## [ 💻 PC ]
  - Open `git-bash` terminal
  - [Check ADB installation.](https://duckduckgo.com/?q=how+to+install+ADB&t=newext&atb=v286-1&ia=web)
     ```bash
@@ -54,7 +54,7 @@
     - When phone is setup properly, it should appear from the `List of devices attached`
     - The left side is the device ID. 📌[Take note of this.](#Adb-device-id)
     - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/feature/updated-readme/scripts/readme_assets/adb1.png?raw=true)
-## 💲SCRIPT
+## [ 💲 SCRIPT ]
  - [Clone this repository](https://github.com/pangz-lab/adb-verus-install/tree/main)
     ```bash
     git clone git@github.com:pangz-lab/adb-verus-install.git
