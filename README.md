@@ -126,4 +126,4 @@
 
 
 # ⚠️Disclaimer<a name='disclaimer'></a>[🔗](#toc)
-> This script is intended for educational purpose only. Anyone who uses this shall be held liable and fully responsible for any damage or loss in any way involving the usage of these scripts.
+> This script is intended for educational purpose only. Anyone who uses this or wish to use shall be held liable and fully responsible for any damage or loss in any way involving the usage of these scripts.
