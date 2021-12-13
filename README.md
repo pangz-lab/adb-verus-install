@@ -24,6 +24,7 @@
 # 📋Requirements<a name='requirements'></a>[🔗](#toc)
 * [x] 🔑Verus public key/address
 * [x] 💻Computer
+* [x] Stable internet connection
 * [x] [ADB Installation](https://developer.android.com/studio/releases/platform-tools)
 * [x] [Git and git-bash](https://git-scm.com/downloads) (other terminals can be used as well)
 * [x] 📱Android phone
@@ -32,11 +33,12 @@
   - `processor`: octa-core (can also be run in quad-core for some brands)
 * [x] USB data cable
 > 📌NOTE:
-> This is mostly tested in `android one`, `hauwei`, `samsung`, `sharp` and `fujitsu` phones
+> ADB installation does not require android studio. Just download it then set the ADB path in the environment variable to access it globally.
+> This script is mostly tested in `android one`, `hauwei`, `samsung`, `sharp` and `fujitsu` phones. In theory, all android phones that satisfy the above conditions should work.
 
 
 # ⚙️Setting<a name='setting'></a>[🔗](#toc)
-`PC` and `SCRIPT` setup should be done once. It might take a while at first but once set, your next setup should take less than 15 minutes.
+`PC` and `SCRIPT` setup should be done once. It might take a while at first but once set, next setup should take less than 10 minutes.
 
 ## [ 📱 Phone ]<a name='setup-phone'></a>[🔗](#toc)
  1. [Enable developer mode in the target device](https://duckduckgo.com/?q=how+to+enable+developer+mode+android&t=newext&atb=v286-1&ia=web)
