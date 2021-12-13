@@ -83,13 +83,11 @@
 
  # 👨‍💻Miner Installation<a name='miner-installation'></a>[🔗](#toc)
  1. Open `git-bash` terminal
- 2. [Make sure the device is connected](#Adb-connected-device)
- 3. [Get the device serial no.](#Adb-device-id)
- 4. Go to the `scripts` folder
+ 2. Go to the `scripts` folder
     ```bash
     cd [download_directory]\adb-verus-install\scripts\
     ```
- 5. Download the resource files from following links(`Default Apps` and `Environment`) and extract the content in each specific folder.
+ 3. Download the resource files from following links(`Default Apps` and `Environment`) and extract the content in each specific folder.
     - [Default Apps](https://drive.google.com/file/d/1aD-foW03mh0YINDl7_P6AcCv3oj4wDu6/view?usp=sharing)
         - i.e. `\scripts\APKs\default\appname.apk` - `appname` is the extracted app
         - These files are app apks that can be installed automatically during the setup. termux and termux-api are included by default.
@@ -99,15 +97,17 @@
     - [Environment](https://drive.google.com/file/d/1-09qY8y-91xYO-9crWml-EDefwYAJNzv/view?usp=sharing)
         - i.e. `\scripts\data\termux\termbk.tar.gz` - Linux OS image. No need to extract.
         - ![environment](https://github.com/pangz-lab/adb-verus-install/blob/main/scripts/readme_assets/setup3.png?raw=true)
- 6. Run the following command to show the required parameters
+ 4. Run the following command to show the required parameters
     ```bash
     ./setup.sh
     ```
     - Should appear like `./setup.sh <serial no.> <miner name> <mode> <thread>`
     - `serial no.` : [device serial number](#Adb-device-id)
-    - `miner name` : any alphanumeric value. This will be appended in the miner prefix from the [configuration](#conf-key-miner-prefix)
+    - `miner name` : any alphanumeric value, no space. This will be appended in the miner prefix from the [configuration](#conf-key-miner-prefix)
     - `mode` : either 'x' or 'HYBRID' - [see luckpool setting](https://luckpool.net/verus/connect.html)
     - `thread` : number of processor to use
+ 5. [Make sure the device is connected](#Adb-connected-device)
+ 6. [Get the device serial no.](#Adb-device-id)
  7. Run the following command to start the installation. Don't disconnect or move your phone to avoid interruption.
     ```bash
     # i.e. 
