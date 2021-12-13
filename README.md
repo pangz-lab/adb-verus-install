@@ -13,9 +13,10 @@
 * Computer
 * [ABD Installation](https://developer.android.com/studio/releases/platform-tools)
 * Android phone
-  - version: Android 7.x+ to 11.x
+  - version: Android 7.x+ to 10.x ( 11.x might have an issue for some brands )
   - architecture: 64 bit 
   - processor: octa-core (can also be run in quad-core for some brands)
+  - [Git bash](https://git-scm.com/downloads) (other terminals can be used as well)
 * USB data cable
 ```
 Note:
