@@ -1,14 +1,14 @@
 # adb-verus-install
 ## Table of contents<a name='toc'></a>
-- ❓[What's this for?](#what-for)
-- 🙈[Who can use this?](#what-use)
-- 📋[Requirements](#requirements)
-- ⚙️[Setting](#setting)
-    - 📱[Phone](#setup-phone)
-    - 💻[PC](#setup-pc)
-    - 💲[Script](#setup-script)
-- 👨‍💻[Miner Installation](#miner-installation)
-- ⚠️[Diclaimer](#disclaimer)
+- ❓ [What's this for?](#what-for)
+- 🙈 [Who can use this?](#what-use)
+- 📋 [Requirements](#requirements)
+- ⚙️ [Setting](#setting)
+    - 📱 [Phone](#setup-phone)
+    - 💻 [PC](#setup-pc)
+    - 💲 [Script](#setup-script)
+- 👨‍💻 [Miner Installation](#miner-installation)
+- ⚠️ [Diclaimer](#disclaimer)
 # ❓What's this for?<a name='what-for'></a>[🔗](#toc)
 * Running a verus miner in mobile phone ( for [Luckpool.net](https://luckpool.net/verus/connect.html) for now )
 * Seemless and smoooth miner installation
@@ -23,6 +23,7 @@
 
 # 📋Requirements<a name='requirements'></a>[🔗](#toc)
 * 💻Computer
+* 🔑Verus public address
 * 📱Android phone
   - `version`: Android 7.x+ to 10.x ( 11.x might have some issues for some brands )
   - `architecture`: 64 bit 
@@ -30,7 +31,6 @@
   - [Git and git-bash](https://git-scm.com/downloads) (other terminals can be used as well)
 * USB data cable
 * [ADB Installation](https://developer.android.com/studio/releases/platform-tools)
-* 🔑Verus public address
 > 📌NOTE:
 > This is mostly tested in `android one`, `hauwei`, `samsung`, `sharp` and `fujitsu` phones
 
