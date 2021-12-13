@@ -47,12 +47,12 @@
     ```
     - It should give version and other details
     - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/feature/updated-readme/scripts/readme_assets/adb2.png?raw=true)
- - [Check the connected device.](#Adb-connected-device)
+ - Check the connected device.<a name="Adb-connected-device"></a>
     ```bash
     adb devices
     ```
     - When phone is setup properly, it should appear from the `List of devices attached`
-    - The left side is the device ID. 📌[Take note of this.](#Adb-device-id)
+    - The left side is the device ID. 📌Take note. <a name="Adb-device-id"></a>
     - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/feature/updated-readme/scripts/readme_assets/adb1.png?raw=true)
 ## [ 💲 SCRIPT ]
  - [Clone this repository](https://github.com/pangz-lab/adb-verus-install/tree/main)
@@ -66,7 +66,7 @@
  - Open `\config\default.sh` - this is the default configuration file
  - Update the configuration with the following keys
     1. `MINER_PUB_KEY` : public address
-    2. `MINER_PREFIX` : [miner prefix name. Any alphanumeric character.](#conf-key-miner-prefix)
+    2. `MINER_PREFIX` : miner prefix name. Any alphanumeric character. <a name="conf-key-miner-prefix"></a>
     3. `MINER_STRAT` : mining pool server. This is optional. You can leave it for now.
 
 > ⛔️ Don't use public address from any trading platform. `"Not your keys, not your coins"`
