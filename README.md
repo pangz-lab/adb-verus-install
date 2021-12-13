@@ -79,15 +79,7 @@
     - `MINER_PUB_KEY` : Verus public key/address
     - `MINER_PREFIX` : miner prefix name. Any alphanumeric character. <a name="conf-key-miner-prefix"></a>
     - `MINER_STRAT` : mining pool server. This is optional. You can leave it for now.
-
 > ⛔️ Don't use public address from any trading platform. `"Not your keys, not your coins"`
-
- 5. Download the following link and extract the content inside the `\APKs\default\` folder
-    - i.e. `\APKs\default\appname.apk` - the extracted apps should be in the `default` folder
-    - [Default Apps](https://drive.google.com/file/d/1aD-foW03mh0YINDl7_P6AcCv3oj4wDu6/view?usp=sharing)
-    - These files are app apks that can be installed automatically during the setup. termux and termux-api are included by default.
-    - This is configured in `default.sh` under `APK_COLLECTION`.
-    - If you need to include other app, put the apk in the same folder and add the name in `APK_COLLECTION` array.
 
  # 👨‍💻Miner Installation<a name='miner-installation'></a>[🔗](#toc)
  1. Open `git-bash` terminal
@@ -97,7 +89,17 @@
     ```bash
     cd [download_directory]\adb-verus-install\scripts\
     ```
- 5. Run the following command to show the required parameters
+ 5. Download the resource files from following links(Default Apps and Environment) and extract the content in each specific folder.
+    - [Default Apps](https://drive.google.com/file/d/1aD-foW03mh0YINDl7_P6AcCv3oj4wDu6/view?usp=sharing)
+        - i.e. `\scripts\APKs\default\appname.apk` - `appname` is the extracted app
+        - These files are app apks that can be installed automatically during the setup. termux and termux-api are included by default.
+        - This is configured in `default.sh` under `APK_COLLECTION`.
+        - If you need to include other app, put the apk in the same folder and add the name in `APK_COLLECTION` array.
+        - ![environment](https://github.com/pangz-lab/adb-verus-install/blob/main/scripts/readme_assets/setup4.png?raw=true)
+    - [Environment](https://drive.google.com/file/d/1-09qY8y-91xYO-9crWml-EDefwYAJNzv/view?usp=sharing)
+        - i.e. `\scripts\data\termux\termbk.tar.gz` - Linux OS image. No need to extract.
+        - ![environment](https://github.com/pangz-lab/adb-verus-install/blob/main/scripts/readme_assets/setup3.png?raw=true)
+ 6. Run the following command to show the required parameters
     ```bash
     ./setup.sh
     ```
@@ -106,7 +108,7 @@
     - `miner name` : any alphanumeric value. This will be appended in the miner prefix from the [configuration](#conf-key-miner-prefix)
     - `mode` : either 'x' or 'HYBRID' - [see luckpool setting](https://luckpool.net/verus/connect.html)
     - `thread` : number of processor to use
- 6. Run the following command to start the installation. Don't disconnect or move your phone to avoid interruption.
+ 7. Run the following command to start the installation. Don't disconnect or move your phone to avoid interruption.
     ```bash
     # i.e. 
     # The parameter varies per phone especially the device serial no.
@@ -114,14 +116,13 @@
     ```
     - Wait for the the installation to complete.
     - The device can be disconnected after the installation.
-    - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/main/scripts/readme_assets/setup1.png?raw=true)
- 7. Open the `termux` app from your phone.
- 8. Follow the instruction showing in the terminal starting from `[ Open Termux ]` section.
+    - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/main/scripts/readme_assets/setup3.png?raw=true)
+ 8. Open the `termux` app from your phone.
+ 9. Follow the instruction showing in the terminal starting from `[ Open Termux ]` section.
     - The command `pkg install termux-api` might not be completed for some installation. Just proceed to the next step.
     - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/main/scripts/readme_assets/setup2.png?raw=true)
     - Termux will automatically close at some point, you need to reopen it.
- 9. Setup is complete
- 10. Open `termux` - the miner will run automatically
+ 10. Setup is complete
  11. To check, change the `[YOUR_PUBLIC_ADDRESS]`
  12. Open [https://luckpool.net/verus/miner.html?[YOUR_PUBLIC_ADDRESS]](https://luckpool.net/verus/miner.html?RUYVdsamoaJ5JwB2YZyPHCAVXeNa87GV5Q)
  - ![done](https://images.techhive.com/images/article/2014/01/sheldon_thats_how_its_done-580-100221962-orig.gif)
