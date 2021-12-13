@@ -111,7 +111,7 @@
  - Setup is complete
  - Open `termux` - the miner will run automatically
  - To check, change the `YOUR_PUBLIC_ADDRESS` and open [https://luckpool.net/verus/miner.html?[YOUR_PUBLIC_ADDRESS]](https://luckpool.net/verus/miner.html?RTV4siJREZNdk6Y9rrsmXVehLtPa7QTaZN)
- ![done](https://images.techhive.com/images/article/2014/01/sheldon_thats_how_its_done-580-100221962-orig.gif)
+- ![done](https://images.techhive.com/images/article/2014/01/sheldon_thats_how_its_done-580-100221962-orig.gif)
 
 
 # ⚠️Disclaimer
