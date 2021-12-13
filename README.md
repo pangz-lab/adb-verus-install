@@ -22,15 +22,15 @@
     - build phone mining hub without the hassle of repetitive and tedious setup
 
 # 📋Requirements<a name='requirements'></a>[🔗](#toc)
+* 🔑Verus public key
 * 💻Computer
-* 🔑Verus public address
+* [ADB Installation](https://developer.android.com/studio/releases/platform-tools)
+* [Git and git-bash](https://git-scm.com/downloads) (other terminals can be used as well)
 * 📱Android phone
   - `version`: Android 7.x+ to 10.x ( 11.x might have some issues for some brands )
   - `architecture`: 64 bit 
   - `processor`: octa-core (can also be run in quad-core for some brands)
-  - [Git and git-bash](https://git-scm.com/downloads) (other terminals can be used as well)
 * USB data cable
-* [ADB Installation](https://developer.android.com/studio/releases/platform-tools)
 > 📌NOTE:
 > This is mostly tested in `android one`, `hauwei`, `samsung`, `sharp` and `fujitsu` phones
 
@@ -75,7 +75,7 @@
     ```
  3. Open `\config\default.sh` - this is the default configuration file
  4. Update the configuration with the following keys
-    1. `MINER_PUB_KEY` : public address
+    1. `MINER_PUB_KEY` : Verus public key
     2. `MINER_PREFIX` : miner prefix name. Any alphanumeric character. <a name="conf-key-miner-prefix"></a>
     3. `MINER_STRAT` : mining pool server. This is optional. You can leave it for now.
 
@@ -110,10 +110,10 @@
     # The parameter varies per phone especially the device serial no.
     ./setup.sh STP0219425010219 H1M1 HYBRID 8
     ```
-    - Wait for the the installation to complete
+    - Wait for the the installation to complete.
     - The device can be disconnected after the installation.
     - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/main/scripts/readme_assets/setup1.png?raw=true)
- 7. From your phone, open the `termux` app
+ 7. Open the `termux` app from your phone.
  8. Follow the instruction showing in the terminal starting from `[ Open Termux ]`
     - The command `pkg install termux-api` might not be completed for some installation. Just proceed to the next step.
     - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/main/scripts/readme_assets/setup2.png?raw=true)
