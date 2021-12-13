@@ -1,14 +1,14 @@
 # adb-verus-install
 ## Table of contents<a name='toc'></a>
-- [x] ❓[What's this for?](#what-for)
-- [x] 🙈[Who can use this?](#what-use)
-- [x] 📋[Requirements](#requirements)
-- [x] ⚙️[Settin](#setup)
-    - [x] 📱[Phone](#setup-phone)
-    - [x] 💻[PC](#setup-pc)
-    - [x] 💲[Script](#setup-script)
-- [x] 👨‍💻[Miner Installation](#miner-installation)
-- [x] ⚠️[Diclaimer](#disclaimer)
+- ❓[What's this for?](#what-for)
+- 🙈[Who can use this?](#what-use)
+- 📋[Requirements](#requirements)
+- ⚙️[Setting](#setting)
+    - 📱[Phone](#setup-phone)
+    - 💻[PC](#setup-pc)
+    - 💲[Script](#setup-script)
+- 👨‍💻[Miner Installation](#miner-installation)
+- ⚠️[Diclaimer](#disclaimer)
 # ❓What's this for?<a name='what-for'></a>[🔗](#toc)
 * Running a verus miner in mobile phone ( for [Luckpool.net](https://luckpool.net/verus/connect.html) for now )
 * Seemless and smoooth miner installation
@@ -35,7 +35,7 @@
 > This is mostly tested in `android one`, `hauwei`, `samsung`, `sharp` and `fujitsu` phones
 
 
-# ⚙️Setting<a name='setup'></a>[🔗](#toc)
+# ⚙️Setting<a name='setting'></a>[🔗](#toc)
 `PC` and `SCRIPT` setup should be done once. It might take a while at first but once set, your next setup should take less than 15 minutes.
 
 ## [ 📱 Phone ]<a name='setup-phone'></a>[🔗](#toc)
@@ -120,8 +120,9 @@
     - Termux will automatically close at some point, you need to reopen it.
  - Setup is complete
  - Open `termux` - the miner will run automatically
- - To check, change the `YOUR_PUBLIC_ADDRESS` and open [https://luckpool.net/verus/miner.html?[YOUR_PUBLIC_ADDRESS]](https://luckpool.net/verus/miner.html?RTV4siJREZNdk6Y9rrsmXVehLtPa7QTaZN)
-- ![done](https://images.techhive.com/images/article/2014/01/sheldon_thats_how_its_done-580-100221962-orig.gif)
+ - To check, change the `YOUR_PUBLIC_ADDRESS`
+ - Open [https://luckpool.net/verus/miner.html?[YOUR_PUBLIC_ADDRESS]](https://luckpool.net/verus/miner.html?RTV4siJREZNdk6Y9rrsmXVehLtPa7QTaZN)
+ - ![done](https://images.techhive.com/images/article/2014/01/sheldon_thats_how_its_done-580-100221962-orig.gif)
 
 
 # ⚠️Disclaimer<a name='disclaimer'></a>[🔗](#toc)
