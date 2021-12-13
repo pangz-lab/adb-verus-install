@@ -1,16 +1,16 @@
 # adb-verus-install
-## What's for?
+## What is it for?
 * Run a verus miner in mobile phone ( for [Luckpool.net](https://luckpool.net/verus/connect.html) for now )
-* Seemless, smoooth mining setup
-* Designed for continuous phone mining setup
+* Seemless and smoooth miner installation
+* Designed for multiple and continuous phone mining setup
 
 
 ## Who can use it?
 * Anyone who wants to
     - have fun
     - try verus mobile phone mining
-    - maximize the hash power of their phone
-    - to build phone mining hub without the hassle of repetitive and tedious setup
+    - maximize the hash power of their verus phone miner
+    - build phone mining hub without the hassle of repetitive and tedious setup
 * Anyone with spare android mobile phone to play with and nothing to lose - [ see the requirements ]
 
 ## Requirements
@@ -35,7 +35,7 @@ This is tested mostly in android one, hauwei, samsung, sharp and fujitsu phones
  - Enable `USB Debugging`
     - ![usb debugging](https://github.com/pangz-lab/adb-verus-install/blob/feature/updated-readme/scripts/readme_assets/usbdebug.png?raw=true)
     - This is the minimun setting but other phone brand might require additional setting to allow the communication with ADB.
- - Connect the phone to your PC using the data cable
+ - Connect the phone to your PC with the data cable
  - In the first run, a message will popup asking to `Allow USB Debugging?`. Click `OK`.
     - Check `Always allow from this computer` so popup won't require confirmation the next time you make a connection.
     - ![allow debugging message](https://www.howtogeek.com/wp-content/uploads/2016/04/Screenshot_20160419-094818.png)
@@ -55,7 +55,7 @@ This is tested mostly in android one, hauwei, samsung, sharp and fujitsu phones
     ```bash
     adb devices
     ```
-    - When phone is connected, it should appear from the `List of devices attached`
+    - When phone is setup properly, it should appear from the `List of devices attached`
     - The left side is the device ID. [Take note of this.](#adb-device-id)
     - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/feature/updated-readme/scripts/readme_assets/adb1.png?raw=true)
 ### [ SCRIPT ]
@@ -82,7 +82,7 @@ This is tested mostly in android one, hauwei, samsung, sharp and fujitsu phones
     - This is configured in `default.sh` under `APK_COLLECTION` key.
     - If you need to include other app, put the apk in the same folder and add the name in `APK_COLLECTION` array.
 
- ### Mining Installation
+ ### Miner Installation
  - Open `git-bash`
  - [Make sure the device is connected](#adb-connected-device)
  - [Get the device serial no.](#adb-device-id)
@@ -110,6 +110,7 @@ This is tested mostly in android one, hauwei, samsung, sharp and fujitsu phones
     - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/feature/updated-readme/scripts/readme_assets/setup1.png?raw=true)
  - From your phone, open the `termux` app
  - Follow the instruction showing in the terminal starting from `[ Open Termux ]`
+    - The command `pkg install termux-api` might not be completed for some installation. Just proceed to the next step.
     - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/feature/updated-readme/scripts/readme_assets/setup2.png?raw=true)
     - Termux will automatically close at some point, you need to reopen it.
  - Setup is complete
