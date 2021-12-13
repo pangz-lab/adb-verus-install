@@ -10,16 +10,16 @@
 - 👨‍💻 [Miner Installation](#miner-installation)
 - ⚠️ [Diclaimer](#disclaimer)
 # ❓What's this for?<a name='what-for'></a>[🔗](#toc)
-* Running a verus miner in mobile phone ( for [Luckpool.net](https://luckpool.net/verus/connect.html) for now )
+* Running a verus miner in mobile phone ( used for [Luckpool.net](https://luckpool.net/verus/connect.html) for now )
 * Seemless and smoooth miner installation
 * Designed for multiple and continuous phone mining setup
 
 # 🙈Who can use this?<a name='what-use'></a>[🔗](#toc)
+* Anyone with spare android mobile phone to play with and nothing to lose - [ see the requirements ](#requirements)
 * Anyone who wants to
     - explore and try verus phone mining
     - maximize the hash power of their phone miner
     - build phone mining hub without the hassle of repetitive and tedious setup
-* Anyone with spare android mobile phone to play with and nothing to lose - [ see the requirements ]
 
 # 📋Requirements<a name='requirements'></a>[🔗](#toc)
 * 💻Computer
@@ -88,7 +88,7 @@
     - If you need to include other app, put the apk in the same folder and add the name in `APK_COLLECTION` array.
 
  # 👨‍💻Miner Installation<a name='miner-installation'></a>[🔗](#toc)
- 1. Open `git-bash`
+ 1. Open `git-bash` terminal
  2. [Make sure the device is connected](#Adb-connected-device)
  3. [Get the device serial no.](#Adb-device-id)
  4. Go to the `scripts` folder
