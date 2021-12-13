@@ -1,17 +1,27 @@
 # adb-verus-install
-# ❓What's this for?
+## Table of contents
+- [x] [What's this for?](#what-for)
+- [x] [Who can use this?](#what-use)
+- [x] [Requirements](#requirements)
+- [x] [Setup](#setup)
+    - [x] [Phone Setup](#setup-phone)
+    - [x] [PC Setup](#setup-pc)
+    - [x] [Script Setup](#setup-script)
+- [x] [Miner Installation](#instatllation)
+- [x] [Diclaimer](#disclaimer)
+# ❓What's this for?<a name='what-for'></a>
 * Running a verus miner in mobile phone ( for [Luckpool.net](https://luckpool.net/verus/connect.html) for now )
 * Seemless and smoooth miner installation
 * Designed for multiple and continuous phone mining setup
 
-# 🙈Who can use this?
+# 🙈Who can use this?<a name='what-use'></a>
 * Anyone who wants to
     - explore and try verus phone mining
     - maximize the hash power of their phone miner
     - build phone mining hub without the hassle of repetitive and tedious setup
 * Anyone with spare android mobile phone to play with and nothing to lose - [ see the requirements ]
 
-# 📋Requirements
+# 📋Requirements<a name='requirements'></a>
 * 💻Computer
 * 📱Android phone
   - `version`: Android 7.x+ to 10.x ( 11.x might have some issues for some brands )
@@ -25,10 +35,10 @@
 > This is mostly tested in `android one`, `hauwei`, `samsung`, `sharp` and `fujitsu` phones
 
 
-# ⚙️Setup
+# ⚙️Setup<a name='setup'></a>
 `PC` and `SCRIPT` setup should be done once. It might take a while at first but once set, your next setup should take less than 15 minutes.
 
-## [ 📱 PHONE ]
+## [ 📱 PHONE ]<a name='setup-phone'></a>
  - [Enable developer mode in the target device](https://duckduckgo.com/?q=how+to+enable+developer+mode+android&t=newext&atb=v286-1&ia=web)
  - Enable `USB Debugging`
     - ![usb debugging](https://github.com/pangz-lab/adb-verus-install/blob/main/scripts/readme_assets/usbdebug.png?raw=true)
@@ -39,7 +49,7 @@
     - ![allow debugging message](https://www.howtogeek.com/wp-content/uploads/2016/04/Screenshot_20160419-094818.png)
 > 📌NOTE:
 > If you plan to use your phone solely for mining, uninstall and disable unnecessary apps and services to maximize your resources.
-## [ 💻 PC ]
+## [ 💻 PC ]<a name='setup-pc'></a>
  - Open `git-bash` terminal
  - [Check ADB installation.](https://duckduckgo.com/?q=how+to+install+ADB&t=newext&atb=v286-1&ia=web)
     ```bash
@@ -54,7 +64,7 @@
     - When phone is setup properly, it should appear from the `List of devices attached`
     - The left side is the device ID. 📌Take note. <a name="Adb-device-id"></a>
     - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/main/scripts/readme_assets/adb1.png?raw=true)
-## [ 💲 SCRIPT ]
+## [ 💲 SCRIPT ]<a name='setup-script'></a>
  - [Clone this repository](https://github.com/pangz-lab/adb-verus-install/tree/main)
     ```bash
     git clone git@github.com:pangz-lab/adb-verus-install.git
@@ -77,7 +87,7 @@
     - This is configured in `default.sh` under `APK_COLLECTION`.
     - If you need to include other app, put the apk in the same folder and add the name in `APK_COLLECTION` array.
 
- # 👨‍💻Miner Installation
+ # 👨‍💻Miner Installation<a name='miner-installation'></a>
  - Open `git-bash`
  - [Make sure the device is connected](#Adb-connected-device)
  - [Get the device serial no.](#Adb-device-id)
@@ -114,5 +124,5 @@
 - ![done](https://images.techhive.com/images/article/2014/01/sheldon_thats_how_its_done-580-100221962-orig.gif)
 
 
-# ⚠️Disclaimer
+# ⚠️Disclaimer<a name='disclaimer'></a>
 > This script is intended for educational purpose only. Anyone who uses this shall be held liable and fully responsible for any damage or loss in any way involving the usage of these scripts.
