@@ -79,7 +79,7 @@
     - `MINER_PUB_KEY` : Verus public key/address
     - `MINER_PREFIX` : miner prefix name. Any alphanumeric character. <a name="conf-key-miner-prefix"></a>
     - `MINER_STRAT` : mining pool server. This is optional. You can leave it for now.
-> ⛔️ Don't use public address from any trading platform. `"Not your keys, not your coins"`
+> ⛔️ Don't use public address from any trading platform. `Not your keys, not your coins`
 
  # 👨‍💻Miner Installation<a name='miner-installation'></a>[🔗](#toc)
  1. Open `git-bash` terminal
@@ -89,7 +89,7 @@
     ```bash
     cd [download_directory]\adb-verus-install\scripts\
     ```
- 5. Download the resource files from following links(Default Apps and Environment) and extract the content in each specific folder.
+ 5. Download the resource files from following links(`Default Apps` and `Environment`) and extract the content in each specific folder.
     - [Default Apps](https://drive.google.com/file/d/1aD-foW03mh0YINDl7_P6AcCv3oj4wDu6/view?usp=sharing)
         - i.e. `\scripts\APKs\default\appname.apk` - `appname` is the extracted app
         - These files are app apks that can be installed automatically during the setup. termux and termux-api are included by default.
@@ -116,7 +116,7 @@
     ```
     - Wait for the the installation to complete.
     - The device can be disconnected after the installation.
-    - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/main/scripts/readme_assets/setup3.png?raw=true)
+    - ![adb connection](https://github.com/pangz-lab/adb-verus-install/blob/main/scripts/readme_assets/setup1.png?raw=true)
  8. Open the `termux` app from your phone.
  9. Follow the instruction showing in the terminal starting from `[ Open Termux ]` section.
     - The command `pkg install termux-api` might not be completed for some installation. Just proceed to the next step.
