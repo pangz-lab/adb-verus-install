@@ -22,15 +22,15 @@
     - build phone mining hub without the hassle of repetitive and tedious setup
 
 # 📋Requirements<a name='requirements'></a>[🔗](#toc)
-* 🔑Verus public key
-* 💻Computer
-* [ADB Installation](https://developer.android.com/studio/releases/platform-tools)
-* [Git and git-bash](https://git-scm.com/downloads) (other terminals can be used as well)
-* 📱Android phone
+* [x] 🔑Verus public key
+* [x] 💻Computer
+* [x] [ADB Installation](https://developer.android.com/studio/releases/platform-tools)
+* [x] [Git and git-bash](https://git-scm.com/downloads) (other terminals can be used as well)
+* [x] 📱Android phone
   - `version`: Android 7.x+ to 10.x ( 11.x might have some issues for some brands )
   - `architecture`: 64 bit 
   - `processor`: octa-core (can also be run in quad-core for some brands)
-* USB data cable
+* [x] USB data cable
 > 📌NOTE:
 > This is mostly tested in `android one`, `hauwei`, `samsung`, `sharp` and `fujitsu` phones
 
